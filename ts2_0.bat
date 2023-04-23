@@ -1,0 +1,1 @@
+"C:\Users\admin\Desktop\airtest\AirtestIDE-win-1.2.5\AirtestIDE\AirtestIDE" runner "C:\Users\admin\Desktop\new file\test_ys.air"  --log "C:\Users\admin\AppData\Local\Temp\AirtestIDE\scripts\1841eda196ab385f8b258c47f76eaada"
