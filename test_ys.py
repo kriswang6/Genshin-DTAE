@@ -599,7 +599,7 @@ else:
 
 
 if(skip_ts == 0):
-    dd = input("\t~需要帮忙设置【探索提醒】日程吗？")
+    dd = input("\t~需要在【滴答清单】帮忙设置【探索提醒】日程吗？")
     touch((1599,899))
     dida_ts(time_now.hour + time,time_now.minute,time_now.weekday())
     dd = input("\t日程提醒已调整，按回车结束~")
