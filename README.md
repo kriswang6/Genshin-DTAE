@@ -9,7 +9,7 @@ __桌面启动原神后甩手不管，自动执行以下操作：__
 - 4.自动设置下一次探索时间提醒到滴答清单 ([下载滴答清单](https://dida365.com))
 - 5.提醒区域特色采集物（恢复时间3天），水晶矿（恢复时间2天）是否就绪
 
-## Issues 待处理事项
+## Issues 待优化事项
 - [ ] [多分辨率适配](https://github.com/kriswang6/Genshin-DTAE/issues/4)
 - [ ] [多账号环境测试](https://github.com/kriswang6/Genshin-DTAE/issues/5)
 - [x] (done)[添加延时执行模块](https://github.com/kriswang6/Genshin-DTAE/issues/6)（探索还剩几分钟时，可以通过此模块延时后不管）
