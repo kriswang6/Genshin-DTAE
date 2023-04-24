@@ -21,7 +21,7 @@ __桌面启动原神后甩手不管，自动执行以下操作：__
 - [ ] [克服“必须少女体型角色（影响移动速度）”的限定](https://github.com/kriswang6/Genshin-DTAE/issues/12)（主要影响尘歌壶、探索、合成树脂中走路的过程）
 - [ ] [自动传送到每日任务地点？](https://github.com/kriswang6/Genshin-DTAE/issues/13)
 
-## User Function Use Description 自定义函数使用说明
+## Instructions for Using Custom Functions 自定义函数使用说明
 > 基于Airtest API定义
 
 ### Encapsalution Execute Module 封装执行模块
