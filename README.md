@@ -10,16 +10,16 @@ __桌面启动原神后甩手不管，自动执行以下操作：__
 - 5.提醒区域特色采集物（恢复时间3天），水晶矿（恢复时间2天）是否就绪
 
 ## Issues 待处理事项
-- [ ] 多分辨率适配
-- [ ] 多账号环境测试
-- [x] 添加延时执行模块（探索还剩几分钟时，可以通过此模块延时后不管）
-- [ ] "init_start" 模块中 "touch" 改为 "touch_plus"
-- [ ] 优化尘歌壶定位（简化寻路过程）
-- [ ] 开发自动收取、种植尘歌壶作物模块
-- [ ] 探索未完成时跳过执行
-- [ ] 活动结束时，背包道具到期的弹窗会影响尘歌壶的进入
-- [ ] 克服“必须少女体型角色（影响移动速度）”的限定（主要影响尘歌壶、探索、合成树脂中走路的过程）
-- [ ] 自动传送到每日任务地点？
+- [ ] [多分辨率适配](https://github.com/kriswang6/Genshin-DTAE/issues/4)
+- [ ] [多账号环境测试](https://github.com/kriswang6/Genshin-DTAE/issues/5)
+- [x] [添加延时执行模块](https://github.com/kriswang6/Genshin-DTAE/issues/6)（探索还剩几分钟时，可以通过此模块延时后不管）
+- [ ] ["init_start" 模块中 "touch" 改为 "touch_plus"](https://github.com/kriswang6/Genshin-DTAE/issues/7)
+- [ ] [优化尘歌壶定位](https://github.com/kriswang6/Genshin-DTAE/issues/8)（简化寻路过程）
+- [ ] [开发自动收取、种植尘歌壶作物模块](https://github.com/kriswang6/Genshin-DTAE/issues/9)
+- [ ] [探索未完成时跳过执行](https://github.com/kriswang6/Genshin-DTAE/issues/10)
+- [ ] [活动结束时，背包道具到期的弹窗会影响尘歌壶的进入](https://github.com/kriswang6/Genshin-DTAE/issues/11)
+- [ ] [克服“必须少女体型角色（影响移动速度）”的限定](https://github.com/kriswang6/Genshin-DTAE/issues/12)（主要影响尘歌壶、探索、合成树脂中走路的过程）
+- [ ] [自动传送到每日任务地点？](https://github.com/kriswang6/Genshin-DTAE/issues/13)
 
 ## User Function Use Description 自定义函数使用说明
 > 基于Airtest API定义
