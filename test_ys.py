@@ -124,6 +124,9 @@ time = 0
 skip_sz = 0
 sz = 0
 
+skip_sleep = 0
+sleep_time = 0
+
 skip_close = 0
 flag_sz = 0
 flag_yueka = 0
@@ -142,14 +145,19 @@ skip_sz = int(input("\t是否跳过“合成树脂”"))
 sz = 0
 if(skip_sz == 0):
     sz = int(input("\t个数？"))
+
+skip_sleep = int(input("\t是否跳过“延时执行”"))
+sleep_time = 0
+if(skip_sleep == 0):
+    sleep_time = int(input("\t时间？(s)"))
+
 skip_close =int(input("\t是否跳过“关闭游戏”"))
+
 print("\t配置完成！冲")
 zw = 0
 zw = input("\t按回车键开始")
-
-'''
-sleep(300)
-'''
+if(skip_sleep == 0):
+    sleep(sleep_time)
 
 def init_start():
     touch(Template(r"tpl1661268961479.png", record_pos=(-0.086, 0.267), resolution=(1600, 900)))
