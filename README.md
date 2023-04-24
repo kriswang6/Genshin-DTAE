@@ -1,4 +1,4 @@
-# Genshin-DTAE 原神每日事项自动执行bot
+# Genshin-DTAE Bot
 > Genshin Daily Task Auto Execute bot
 
 ## Main Goals 主要目标
