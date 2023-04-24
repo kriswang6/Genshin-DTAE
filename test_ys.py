@@ -133,7 +133,7 @@ flag_yueka = 0
 skip_init = 0
 #---------配置区↑↑↑
 print("\t原神每日自动化即将启动……")
-skip_init = int(input("\t 是否跳过“初始化”"))
+skip_init = int(input("\t是否跳过“初始化”"))
 skip_cgh = int(input("\t是否跳过“去尘歌壶”"))
 
 skip_ts = int(input("\t是否跳过“探索”"))
