@@ -146,6 +146,7 @@ sz = 0
 if(skip_sz == 0):
     sz = int(input("\t个数？"))
 
+#延时Select模块
 skip_sleep = int(input("\t是否跳过“延时执行”"))
 sleep_time = 0
 if(skip_sleep == 0):
@@ -156,8 +157,15 @@ skip_close =int(input("\t是否跳过“关闭游戏”"))
 print("\t配置完成！冲")
 zw = 0
 zw = input("\t按回车键开始")
+
+#延时Execute模块
 if(skip_sleep == 0):
-    sleep(sleep_time)
+    print("\tETA:")
+    count = sleep_time / 10
+    while count > 0:
+        print(int(count * 10))
+        sleep(10)
+print("\tStart!")
 
 def init_start():
     touch(Template(r"tpl1661268961479.png", record_pos=(-0.086, 0.267), resolution=(1600, 900)))
