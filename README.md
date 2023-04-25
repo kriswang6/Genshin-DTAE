@@ -1,5 +1,4 @@
 # Genshin-DTAE Bot
----
 Genshin Daily Task Auto Execute bot
 > 刷牙洗脸的时间让Bot帮你处理原神每日需要做的一些烦心事（4个每日任务除外，工作量太大X﹏X）
 
