@@ -165,6 +165,7 @@ if(skip_sleep == 0):
     while count > 0:
         print(int(count * 10))
         sleep(10)
+        count = count - 1
 print("\tStart!")
 
 def init_start():
