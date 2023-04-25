@@ -168,7 +168,7 @@ if(skip_sleep == 0):
 print("\tStart!")
 
 def init_start():
-    touch(Template(r"tpl1661268961479.png", record_pos=(-0.086, 0.267), resolution=(1600, 900)))
+    touch_plus(Template(r"tpl1661268961479.png"),0,840,1400,900)
     #connect_device("Windows:///?title_re=原神")
 
     touch_plus(Template(r"dianjijinru.png"),730,828,895,862)
