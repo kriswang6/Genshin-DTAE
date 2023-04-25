@@ -13,8 +13,8 @@ __桌面启动原神后甩手不管，自动执行以下操作：__
 ## Issues 待优化事项
 - [ ] [多分辨率适配](https://github.com/kriswang6/Genshin-DTAE/issues/4)
 - [ ] [多账号环境测试](https://github.com/kriswang6/Genshin-DTAE/issues/5)
-- [x] (done)[添加延时执行模块](https://github.com/kriswang6/Genshin-DTAE/issues/6)（探索还剩几分钟时，可以通过此模块延时后不管）
-- [ ] ["init_start" 模块中 "touch" 改为 "touch_plus"](https://github.com/kriswang6/Genshin-DTAE/issues/7)
+- [x] [添加延时执行模块](https://github.com/kriswang6/Genshin-DTAE/issues/6)（探索还剩几分钟时，可以通过此模块延时后不管）
+- [x] ["init_start" 模块中 "touch" 改为 "touch_plus"](https://github.com/kriswang6/Genshin-DTAE/issues/7)
 - [ ] [优化尘歌壶定位](https://github.com/kriswang6/Genshin-DTAE/issues/8)（简化寻路过程）
 - [ ] [开发自动收取、种植尘歌壶作物模块](https://github.com/kriswang6/Genshin-DTAE/issues/9)
 - [ ] [探索未完成时跳过执行](https://github.com/kriswang6/Genshin-DTAE/issues/10)
