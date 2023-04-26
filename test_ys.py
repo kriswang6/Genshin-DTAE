@@ -13,6 +13,9 @@ import datetime
 import time
 auto_setup(__file__,devices=["Windows:///"])
 
+name = "纳西妲"
+collection = "劫波莲"
+
 # for device 
 gen = device()
 def write_exp_time(wjm,x):
@@ -222,6 +225,7 @@ def cgh():
     sleep(0.2)
     gen.key_release('b')
     sleep(1.5)
+
     screen = G.DEVICE.snapshot()
     local_screen = aircv.crop_image(screen,(835,0,918,80))
 
@@ -588,14 +592,14 @@ if(time_NOW < tyl):
 else:
     yuelian_flag = 1
 if(yuelian_flag == 1):
-    print("\t\t\t~~【纳西妲】的 莲花 刷新了哦！！")
+    print("\t\t\t~~【" + name + "】的 " + collection + " 刷新了哦！！")
     '''
     yuelian_colt = input()
     if(yuelian_colt == 'y'):
         write_collected_time('xt')
     '''
 else:
-    print("\t\t\t~~【纳西妲】的 莲花 还没好")
+    print("\t\t\t~~【" + name + "】的 " + collection + " 还没好")
     tyl = datetime.datetime.strftime(tyl,'%Y-%m-%d %H:%M:%S')
     print("\t\t\t~~~~预计生成时间：" + tyl)
     
@@ -631,4 +635,3 @@ else:
 
 
 
-m
